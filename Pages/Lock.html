@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="en">
+    <head id="lockhead">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>JHDesign</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\jack_\Pictures\Website\Images/favicon.png">
+        <script>
+            window.onload = function()
+            {              
+              var theDelay = 5;
+              var timer = setTimeout("showText()",theDelay*1000)
+             }
+             function showText(){
+              document.getElementById("delayedText").style.visibility = "visible";
+             }
+        </script>
+    </head>
+    <body id="lockbody" style="z-index: 2;">
+         <div>
+             <nav>
+                <a href="./index.html"> <p id=navtext>Home</p></a>
+                <a href="./Contact.html"> <p id="navtext">Contact</p> </a>
+                <a href="./test.html"><p id=navtext>Test</p></a>
+                <a href="./Lock.html"><p id=navtext>Lock</p></a>
+             </nav>
+         </div>
+         <div class="content1" style="z-index: 2;">
+             <!-- homepage title -->
+             <h1>Jack Havel Portfolio and Design</h1>
+             <!--opening text-->
+             <p id="delayedText" style="visibility:hidden">this is my first test at an html webpage for my portfolio and other works</p>
+             <!--an introductory image as a placeholder-->  
+             <p id="letter">this is a test</p>           
+         </div>          
+         <div>
+                <form id="signin">
+                    <label for="username" class="lbl">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="pass" class="lbl">Password:</label>
+                    <input type="password" id="pass" name="password">                    
+                    <input type="submit" class="lbl" id="submit" value="Continue">
+                </form>
+         </div>        
+    </body>
+</html>
