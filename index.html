@@ -1,0 +1,38 @@
+<!Doctype html>
+<html lang="en">
+    <head id="lockhead">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jack's Place</title>
+        <!--webpage icon, make sure link is not broken-->
+        <link rel="icon" type="image/x-icon" href="C:\Users\jack_\Pictures\Website\Images/favicon.png">
+    </head>
+
+    <body class="lockbody" style="z-index: 2;">        
+         <div class="lockcontent" style="z-index: 2;">
+             <!-- lockpage title -->
+             <h1>Jack's Place</h1>
+             <!--text that scrolls to explain the lockpage-->                          
+             <span id="letter" style="--n:105;">Jack's place is curently searching for a homepage. While you wait here are other places you can find Jack</span>           
+         </div>          
+         <div>
+                <form class="signin">
+                    <label for="username" class="lbl">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="pass" class="lbl">Password:</label>
+                    <input type="password" id="pass" name="password">                    
+                    <input type="submit" class="lbl" id="submit" value="Continue">
+                </form>
+         </div>        
+         <script>
+            window.onload = function()
+             {              
+              var theDelay = 5;
+              var timer = setTimeout("showText()",theDelay*1000)
+             }
+             function showText(){
+              document.getElementById("delayedText").style.visibility = "visible";
+             }
+         </script>       
+    </body>
+</html>
