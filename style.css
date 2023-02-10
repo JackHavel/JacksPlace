@@ -1,13 +1,13 @@
 @font-face {
     font-family:PressStart2P;
     font-stretch: ultra-condensed;
-    src: url(C:/Users/jack_/Pictures/Website/Images/PressStart2P-Regular.ttf); 
+    src: url(files/PressStart2P-Regular.ttf); 
  }
 /*@import url(https://fonts.googleapis.com/css?family=Press+Start+2P); test this online*/
 
 .lockbody{
     overflow: hidden;
-    background-image: url(C:/Users/jack_/Pictures/Website/Images/bgtemp.png); /*make sure this link is not broken*/
+    background-image: url(files/bgtemp.png); /*make sure this link is not broken*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -68,51 +68,3 @@
   @keyframes b{
     50% {background-position:0 -100%,0 0}
   }  
-
-/*#bgvid{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top:0px;
-    left:0px;
-    z-index: 1;
-} this code is for lockold html*/
-
-/*p, h1{
-    color: rgb(233, 243, 246);
-} other content styling*/
-
-/*#globe {
-    width: 100%;
-    height: auto;
-}other image styling*/
-
-/*a:link {text-decoration: none; position: relative; top: 500px;}
-a:visited {text-decoration: none; position: relative; top: 500px;}
-a:hover {text-decoration: none; position: relative; top: 500px;}
-a:active {text-decoration: none; position: relative; top: 500px;}
-
-#navtext{
-    color: rgb(233, 243, 246);
-    font-size: 12pt;
-    display: inline;
-
-} this is the navagation formatting for non lock pages*/
-
-#contactbody{
-    background-image: url(C:/Users/jack_/Pictures/Website/Images/contactbackground.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-
-    overflow: hidden; /* Hide scrollbars */
-}
-
-#indexbody{
-    background-image: url(C:/Users/jack_/Pictures/Website/Images/background.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    overflow: hidden; 
-}
