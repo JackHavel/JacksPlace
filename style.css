@@ -1,7 +1,7 @@
 @font-face {
     font-family:PressStart2P;
     font-stretch: ultra-condensed;
-    src: url(./Files/PressStart2P-Regular.ttf)
+    src: url(https://github.com/JackHavel/JacksPlace/blob/main/Files/PressStart2P-Regular.ttf)
  }
 .lockbody{
     overflow: hidden;
