@@ -1,11 +1,11 @@
 @font-face {
     font-family:PressStart2P;
     font-stretch: ultra-condensed;
-    src: url(../JacksPlace/Files/PressStart2P-Regular.ttf)
+    src: url(./Files/PressStart2P-Regular.ttf)
  }
 .lockbody{
     overflow: hidden;
-    background-image: url(../JacksPlace/Files/bgtemp.png); /*make sure this link is not broken*/
+    background-image: url(./Files/bgtemp.png); /*make sure this link is not broken*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
