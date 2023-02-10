@@ -1,10 +1,8 @@
-/*@font-face {
+@font-face {
     font-family:PressStart2P;
     font-stretch: ultra-condensed;
     src: url(Files/PressStart2P-Regular.ttf)
- }*/
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-
+ }
 .lockbody{
     overflow: hidden;
     background-image: url(Files/bgtemp.png); /*make sure this link is not broken*/
