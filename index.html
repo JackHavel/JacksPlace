@@ -9,22 +9,47 @@
         <link rel="icon" type="image/x-icon" href="Files/favicon.png">
     </head>
 
-    <body class="lockbody" style="z-index: 2;">        
-         <div class="lockcontent" style="z-index: 2;">
-             <!-- lockpage title -->
-             <h1>Jack's Place</h1>
-             <!--text that scrolls to explain the lockpage-->                          
-             <span id="letter" style="--n:125;">Jack's place is curently searching for a homepage. While you wait here are other places you can find Jack</span>           
-         </div>          
-         <div>
+    <body class="lockbody" style="z-index: 2;">
+        <div id="computer">      
+            <div class="lockcontent" style="z-index: 2;">
+                <!-- lockpage title -->
+                <h1>Jack's Place</h1>
+                <!--text that scrolls to explain the lockpage-->                          
+                <span id="letter" style="--n:200;">Jack's place is curently searching for a homepage. While you wait here are other places you can find Jack.</span>           
+            </div> 
+            <div class="socials">
+                <a href="https://www.facebook.com/ja.hav.7" id="facebook">
+                    <img src="Files/Facebook_icon.png" class="icon"/>
+                </a>
+                <a href="https://twitter.com/JackaHav" id="twitter">
+                    <img src="Files/Twitter_icon.png" class="icon"/>
+                </a>
+                <a href="https://www.linkedin.com/in/jack-havel-6320b81a2" id="linkedin">
+                    <img src="Files/Linkedin_icon.png" class="icon"/>
+                </a>
+                <a href="https://www.instagram.com/jackahav" id="instagram">
+                    <img src="Files/Instagram_icon.png" class="icon"/>
+                </a>
+                <a href="https://issuu.com/jhavel/docs/portfiolioissue" id="issue">
+                    <img src="Files/Issue_icon.png" class="icon"/>
+                </a>
+                <a id="lock" class="icon">
+                    <img src="Files/Lock_icon.png" class="icon"/>
+                </a>
+            </div>         
+            <div class="signin">
                 <form class="signin">
                     <label for="username" class="lbl">Username:</label>
                     <input type="text" id="username" name="username">
                     <label for="pass" class="lbl">Password:</label>
-                    <input type="password" id="pass" name="password">                    
-                    <input type="submit" class="lbl" id="submit" value="Continue">
+                    <input type="password" id="pass" name="password">
+                    <div>                  
+                        <input type="submit" class="lbl" id="submit" value="Continue">
+                        <input type="button" class="lbl" id="back" value="Back">
+                    </div> 
                 </form>
-         </div>        
+            </div>
+        </div>        
          <script>
             window.onload = function()
              {              
