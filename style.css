@@ -3,6 +3,7 @@
     font-stretch: ultra-condensed;
     src: url(./Files/PressStart2P-Regular.ttf)
  }
+
 .lockbody{
     overflow: hidden;
     background-image: url(./Files/bgtemp.png); /*make sure this link is not broken*/
@@ -13,12 +14,39 @@
     padding-left: 5%;
 }
 
-.lockcontent{
-    max-width: 400px;
+#computer{
+    min-width: 350px;
+    width: 30%;
+    min-height: 350px;    
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: black;
+}
 
+.lockcontent{
+    max-width: 350px;
     margin: 0%;
     font-family: PressStart2P;
     color: rgb(11, 148, 29);
+}
+
+.socials{
+    display:inline ;
+}
+
+.icon{
+    margin: 8pt;
+    width: 10%;
+    height: auto;
+}
+
+#facebook, #twitter, #linkedin, #instagram, #issue, #lock{
+    text-decoration: none;
+}
+
+.signin{
+    display: block;
 }
 
 .lbl {
@@ -29,7 +57,7 @@
     margin-top: 14pt;    
 }
 
-#username, #pass, #submit{
+#username, #pass, #submit, #back{
     font-size: 14pt;
     font-family: PressStart2P;
     color: rgb(11, 148, 29);      
@@ -42,12 +70,15 @@
     background-color: black;
 }
 
-#submit{
+#submit, #back{
     margin-top: 24pt;
+    margin-right: 8pt;
+    display:inline;
 }
 
 #letter {
     font-family: PressStart2P;
+    line-height: 1.5;
     color:#0000;
     background:
       linear-gradient(-90deg,rgb(11, 148, 29) 5px,#0000 0) 10px 0,
@@ -57,12 +88,12 @@
     background-clip:padding-box,text;
     background-repeat:no-repeat;
     animation: 
-      b .7s infinite steps(1),   
-      t calc(var(--n)*.4s) steps(var(--n)) forwards;
+      b .4s infinite steps(1),   
+      t calc(var(--n)*.2s) steps(var(--n)) forwards;
   }
-  @keyframes t{
+@keyframes t{
     from {background-size:0 200%}
-  }
-  @keyframes b{
+}
+@keyframes b{
     50% {background-position:0 -100%,0 0}
-  }  
+}
