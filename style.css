@@ -1,15 +1,12 @@
 @font-face {
     font-family:PressStart2P;
     font-stretch: ultra-condensed;
-    src: url(C:/Users/jack_/Pictures/Website/Images/PressStart2P-Regular.ttf);
+    src: url(./Files/PressStart2P-Regular.ttf);
 }
 @font-face {
         font-family: IndieFlower;
-        src: url(C:/Users/jack_/Pictures/Website/Images/IndieFlower-Regular.ttf);
+        src: url(./Files/IndieFlower-Regular.ttf);
 }
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-
 /* below is css for index.html */
 #indexbody{
     background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
