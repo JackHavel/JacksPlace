@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="en">
+    <head id="archhead">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jack's Place Projects</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\jack_\Pictures\Website\Images/favicon.png">
+    </head>
+    <body id="archbody" onload="startTime()">
+        <div id="container">
+            <div id="hudtop">
+                <image id="hudbackground" src="C:\Users\jack_\Pictures\Website\Images/hudbackground.png" alt="background grey box"></image>
+                <a href="https://jackhavel.ca/"><image id="homepageicon" src="C:\Users\jack_\Pictures\Website\Images/favicon.png" alt="Homepage Icon Link"></image></a>
+                <p class="hudtxt" id="location">Location: Project Library</p>
+                <div class="hudtxt" id="clock"></div>
+            </div>
+            <div id="hudbottom">
+                <image id="hudbackground" src="C:\Users\jack_\Pictures\Website\Images/hudbackground.png" alt="background grey box"></image>
+                <a href=""><image class="icons" id="landingicon" src="C:\Users\jack_\Pictures\Website\Images/Landing_Icon.png" alt=""></image></a>
+                <a href=""><image class="icons" id="bioicon" src="C:\Users\jack_\Pictures\Website\Images/Bio_Icon.png" alt=""></image></a>
+                <a href=""><image class="icons" id="projecticon" src="C:\Users\jack_\Pictures\Website\Images/Project_Icon.png" alt=""></image></a>
+                <a href=""><image class="icons" id="contacticon" src="C:\Users\jack_\Pictures\Website\Images/Contact_Icon.png" alt=""></image></a>
+            </div>
+            <div class="archcontent">
+                <object data="C:\Users\jack_\Pictures\Website\Images/JackHavel_Portfolio.pdf" type="application/pdf" width="100%" height="100%">
+                    <p>Unable to display PDF file. <a href="C:\Users\jack_\Pictures\Website\Images/JackHavel_Portfolio.pdf">Download</a> instead.</p>
+                </object>
+            </div>
+            <svg version="1.0" id="archbackground" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1620">
+                <defs>
+                <style>.cls-1{fill:#fff;opacity:.0;stroke:#000;stroke-miterlimit:10;float:left}</style> 
+                </defs>
+                <image id="map" xlink:href="C:\Users\jack_\Pictures\Website\Images/Projects_Watercolor_0.png" alt="Navigation Background image"/>
+                <a xlink:href=""> <rect id="LP" class="cls-1" x="84" y="76.9362" width="170" height="143"/> </a>                
+                <a xlink:href=""> <rect id="BO" class="cls-1" x="828" y="128" width="76" height="129"/> </a>
+                <a xlink:href=""> <rect id="PR" class="cls-1" x="432.2553" y="454.1064" width="181" height="110"/> </a>
+                <a xlink:href=""> <rect id="CN" class="cls-1" x="839.7447" y="381.2766" width="146" height="143"/> </a>             
+            </svg>
+        </div>
+        <script>
+            function startTime() {
+              const today = new Date();
+              let h = today.getHours();
+              let m = today.getMinutes();
+              let s = today.getSeconds();
+              let d = today.getDate();
+              let mn = today.getMonth() + 1;
+              let y = today.getFullYear();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s + " " + d + "/" + mn + "/" + y;
+              setTimeout(startTime, 1000);
+            }
+            
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};
+              return i;
+            }
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,220 @@
+@font-face {
+    font-family:PressStart2P;
+    font-stretch: ultra-condensed;
+    src: url(C:/Users/jack_/Pictures/Website/Images/PressStart2P-Regular.ttf);
+}
+@font-face {
+        font-family: IndieFlower;
+        src: url(C:/Users/jack_/Pictures/Website/Images/IndieFlower-Regular.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+/* below is css for index.html */
+#indexbody{
+    background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+#background{
+    width: 150%;
+    height: auto;
+     position: relative;
+    z-index:1;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hudtop{
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    width: 98vw;
+    height: 3vw;
+    border: 0.1vw solid black;
+    z-index: 2;
+}
+
+#hudbackground{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 40%;
+}
+
+#homepageicon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: auto;
+    margin-top: 0.15vw;
+    margin-left: 0.15vw;
+}
+
+.hudtxt{
+    font-family: PressStart2P;
+    color: rgb(11, 148, 29);
+    font-size: 1vw;
+    display:inline-block;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#location{
+    float: left;
+    padding-left: 4vw;   
+}
+
+#clock{
+    float: right;
+    padding-right: 2vw;
+    padding-top: 1vw;     
+}
+
+#hudbottom{
+    position: fixed;
+    bottom: 1vw;
+    left: 1vw;
+    width: 6vw;
+    height: 24vw;
+    border: 0.1vw solid black;
+    z-index: 2;
+}
+
+.icons{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    right: 0vw;
+    opacity: 100%;
+}
+
+.icons:hover{
+    opacity: 80%;
+}
+
+#landingicon{
+    top: 0%;
+}
+#bioicon{
+    top: 25%;
+}
+#projecticon{
+    top: 50%;
+}
+#contacticon{
+    top: 75%;
+}
+
+.cls-1:hover{
+    opacity: 100;
+}
+
+.navlbl{
+    font-family: IndieFlower;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    text-shadow: -0.01vw -0.01vw 0 #000, 0.01vw -0.01vw 0 #000000, -0.01vw 0.01vw 0 #000, 0.01vw 0.01vw 0 #000;
+}
+
+#landingpad {
+    position: absolute;
+    top: 11vw;
+    left: 5vw;
+    z-index: 2;
+  }
+
+#biography {
+    position: absolute;
+    top: 13vw;
+    left: 41.75vw;
+    z-index: 2;
+  }
+
+#projects {
+    position: absolute;
+    top: 28.5vw;
+    left: 22.5vw;
+    z-index: 2;
+  }
+
+  #contact {
+    position: absolute;
+    top: 26.5vw;
+    left: 44.25vw;
+    z-index: 2;
+  }
+/* below is css for arch.html */
+#archbody{
+    background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+    justify-content: center;
+}
+
+#archbackground{
+    width: 140%;
+    height: auto;
+     position: relative;
+    z-index:1;
+}
+
+.archcontent{
+    position: absolute;
+    left: 16vw;
+    top: 9vw;
+    width: 65vw;
+    height: 37.5vw;
+    z-index: 2;
+    border: 0.1vw solid black;
+}
+
+/* below is css for bio.html */
+#biobody{
+    background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    overflow: scroll; 
+}
+
+.biocontent{
+    position: absolute;
+    left: 16vw;
+    top: 9vw;
+    width: 65vw;
+    height: 37.5vw;
+    z-index: 2;
+    border: 0.1vw solid black;
+}
+
+#bioimage{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 12%;
+    top: 12%;
+    opacity: 60%;
+    z-index: 2;
+}
+
+#biotxt{
+    position: absolute;
+    width: 50%;
+    right: 12%;
+    top: 15%;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(124, 117, 85);
+    font-size: 1.5vw;
+    text-shadow: -0.04vw -0.04vw 0 rgb(161, 151, 110), -0.04vw 0.04vw 0 rgb(161, 151, 110);
+}
