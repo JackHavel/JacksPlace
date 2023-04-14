@@ -173,7 +173,6 @@
     width: 65vw;
     height: 37.5vw;
     z-index: 2;
-    border: 0.1vw solid black;
 }
 
 /* below is css for bio.html */
@@ -191,7 +190,6 @@
     width: 65vw;
     height: 37.5vw;
     z-index: 2;
-    border: 0.1vw solid black;
 }
 
 #bioimage{
