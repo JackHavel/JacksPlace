@@ -154,9 +154,9 @@
 #archbody{
     background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
     background-repeat:repeat;
-    background-attachment: fixed;
-    overflow: scroll;
+    background-attachment: fixed; 
     justify-content: center;
+    overflow: hidden;
 }
 
 #archbackground{
@@ -181,7 +181,7 @@
     background-image: url(C:/Users/jack_/Pictures/Website/Images/Watercolorpaper_Background.png);
     background-repeat:repeat;
     background-attachment: fixed;
-    overflow: scroll; 
+    overflow: hidden; 
 }
 
 .biocontent{
